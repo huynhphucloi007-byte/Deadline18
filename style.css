@@ -2685,6 +2685,7 @@ input {
             gap: 32px;
             transition: all 0.3s ease;
             .box-left {
+                width: 100%;
                 .text {
                     font-size: 13px;
                     transition: all 0.3s ease;
@@ -2853,4 +2854,5 @@ input {
         }
     }
 }
+
 
