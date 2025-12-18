@@ -14,8 +14,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Formative Trail";
 }
+
+u {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 .header {
     width: 100%;
     background-image: url(image/background-header.png);
@@ -1047,6 +1053,9 @@ input {
                                     border: 1px solid rgba(208, 213, 221, 1);
                                     margin-top: 6px;
                                 }
+                                .text-agree {
+                                    font-family: "Inter";
+                                }
                             }
                         }
                         .text-form3 {
@@ -1172,6 +1181,7 @@ input {
         justify-content: space-between;
         align-items: center;
         .box-left {
+            width: 58%;
             margin-left: 32px;
             display: flex;
             flex-direction: column;
@@ -1202,6 +1212,7 @@ input {
                 align-items: center;
                 gap: 16px;
                 .style1 {
+                    font-family: "Inter";
                     width: 280px;
                     height: 44px;
                     border-radius: 8px;
@@ -1217,6 +1228,7 @@ input {
                     color: rgba(102, 112, 133, 1);
                 }
                 .style2 {
+                    font-family: "Inter";
                     width: 115px;
                     height: 44px;
                     border-radius: 8px;
@@ -1276,6 +1288,7 @@ input {
                 }
             }
             .text2 {
+                font-family: "Inter";
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 24px;
@@ -1295,6 +1308,7 @@ input {
                 align-items: start;
                 gap: 16px;
                 .font-item {
+                    font-family: "Inter";
                     font-weight: 700;
                     font-size: 14px;
                     line-height: 20px;
@@ -1307,6 +1321,7 @@ input {
                     align-items: start;
                     gap: 12px;
                     .font-item {
+                        font-family: "Inter";
                         font-weight: 600;
                         font-size: 16px;
                         line-height: 24px;
@@ -1324,6 +1339,7 @@ input {
         display: flex;
         justify-content: space-between;
         .text {
+            font-family: "Inter";
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
@@ -1348,9 +1364,9 @@ input {
             .box-bottom {
                 .box-wrap {
                     .box-grid {
-                        width: 685px;
+                        width: 665px;
                         display: grid;
-                        grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+                        grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
                         gap: 15px;
                         transition: all 0.3s ease;
                         .item-grid1 {
@@ -1358,15 +1374,15 @@ input {
                             transition: all 0.3s ease;
                         }
                         .item-grid2 {
-                            width: 335px;
+                            width: 325px;
                             transition: all 0.3s ease;
                         }
                         .item-grid3 {
-                            width: 335px;
+                            width: 325px;
                             transition: all 0.3s ease;
                         }
                         .item-grid4 {
-                            width: 335px;
+                            width: 325px;
                             transition: all 0.3s ease;
                         }
                     }
@@ -1379,7 +1395,7 @@ input {
         }
     }
 
-    .section5 {
+    /* .section5 {
         .container {
             .box-bottom {
                 .box-left {
@@ -1417,7 +1433,7 @@ input {
                 }
             }
         }
-    }
+    } */
 
     .footer {
         padding: 40px 0;
@@ -1428,6 +1444,7 @@ input {
             flex-direction: column;
             justify-content: center;
             gap: 30px;
+            transition: all 0.3s ease;
             .box-logo {
                 max-width: 100%;
                 height: auto;
@@ -1435,6 +1452,7 @@ input {
                 flex-direction: column;
                 align-items: start;
                 gap: 20px;
+                transition: all 0.3s ease;
             }
             .box-item {
                 display: flex;
@@ -1455,29 +1473,16 @@ input {
     }
 
     .section2 {
-        & .container {
-            & .box-bottom {
-                border: 0;
+         .container {
+            .box-bottom {
                 .box-wrap {
-                    width: 100%;
-                    height: auto;
-                    margin: 26px 30px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 17px;
-                    transition: all 0.3s ease;
-                    .box-right {
-                        width: 685px;
-                        height: 350px;
-                        position: relative;
-                        border-radius: 10px;
-                        background-image: url(image/adoption.png);
-                        background-position: -250px;
-                        background-repeat: no-repeat;
-                        background-size: 1165px;
-                        transition: all 0.3s ease;
+                    margin: 26px 0;
+                    .box-grid {
+                        width: 715px;
+                        display: grid;
+                        justify-items: center;
+                        grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+                        gap: 15px;
                     }
                 }
             }
@@ -1490,7 +1495,7 @@ input {
                 .box-wrap {
                     .main-box {
                         .content {
-                            width: 90%;
+                            width: 50.6%;
                             height: 100%;
                             display: flex;
                             flex-direction: column;
@@ -1499,15 +1504,15 @@ input {
                             transition: all 0.3s ease;
                         }
                     }
-                    .image {
+                    /* .image {
                         display: none;
-                    }
+                    } */
                 }
             }
         }
     }
 
-    .section7 {
+    /* .section7 {
         .container {
             width: 90%;
             max-width: 1280px;
@@ -1548,7 +1553,7 @@ input {
                 }
             }
         }
-    }
+    } */
 }
 
 @media only screen and (max-width: 1025px) {
@@ -1601,6 +1606,59 @@ input {
         }
     }
 
+    .section2 {
+        .container {
+            .box-bottom {
+                border: 0;
+                .box-wrap {
+                    width: 100%;
+                    height: auto;
+                    margin: 26px 30px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 17px;
+                    transition: all 0.3s ease;
+                    .box-right {
+                        width: 685px;
+                        height: 350px;
+                        position: relative;
+                        border-radius: 10px;
+                        background-image: url(image/adoption.png);
+                        background-position: -250px;
+                        background-repeat: no-repeat;
+                        background-size: 1165px;
+                        transition: all 0.3s ease;
+                    }
+                }
+            }
+        }
+    }
+
+    .section3 {
+        .container {
+        .box-bottom {
+                .box-wrap {
+                    .main-box {
+                        .content {
+                            width: 90%;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            gap: 16px;
+                            transition: all 0.3s ease;
+                        }
+                    }
+                    .image {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
     .section4 {
         .container {
             .box-bottom {
@@ -1633,6 +1691,46 @@ input {
         }
     }
 
+    .section5 {
+        .container {
+            .box-bottom {
+                .box-left {
+                    .box-text {
+                        .box-1 {
+                            padding-top: 33px;
+                            font-weight: 400;
+                            font-size: 17px;
+                            line-height: 26px;
+                            color: var(--grey2);
+                            transition: all 0.3s ease;
+                        }
+                        .box-2 {
+                            .text {
+                                font-weight: 400;
+                                font-size: 17px;
+                                line-height: 26px;
+                                color: var(--grey2);
+                                transition: all 0.3s ease;
+                            }
+                        }
+                    }
+                }
+                .box-left {
+                    width: 100%;
+                    max-width: 1280px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 48px;
+                    transition: all 0.3s ease;
+                }
+                .box-right {
+                    display: none;
+                }
+            }
+        }
+    }
+
     .section6 {
         .container {
             .box-bottom {
@@ -1655,6 +1753,49 @@ input {
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .section7 {
+        .container {
+            width: 90%;
+            max-width: 1280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 32px;
+            transition: all 0.3s ease;
+            .box-left {
+                margin: 0;
+            }
+           .box-right {
+                width: 560px;
+                height: 95px;
+                transition: all 0.3s ease;
+                .gap-form {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 15px;
+                    flex-direction: column;
+                    transition: all 0.3s ease;
+                    .style1 {
+                        width: 100%;
+                        height: 41px;
+                        border-radius: 7px;
+                        transition: all 0.3s ease;
+                    }
+                    .style2 {
+                        width: 100%;
+                        height: 39px;
+                        border-radius: 7px;
+                        transition: all 0.3s ease;
                     }
                 }
             }
@@ -1704,6 +1845,7 @@ input {
                 margin-top: 28px;
                 .container {
                     .box-nav {
+                        margin-left: 0;
                         .box-menu {
                             display: none;
                         }
@@ -1749,6 +1891,10 @@ input {
                             transition: all 0.3s ease;
                         }
                     }
+                    .button {
+                        width: 167px;
+                        height: 60px;
+                    }
                 }
             }
         }
@@ -1766,10 +1912,18 @@ input {
             gap: 20px;
             transition: all 0.3s ease;
             .box-top {
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
                 height: 35px;
                 transition: all 0.3s ease;
                 .box-logo {
+                    height: 24px;
+                    display: flex;
+                    justify-content: start;
+                    align-items: start;
                     .text {
+                        height: 24px;
                         font-weight: 500;
                         font-size: 20px;
                         color: var(--dark-blue);
@@ -1886,13 +2040,21 @@ input {
             gap: 20px;
             transition: all 0.3s ease;
             .box-top {
+                display: flex;
+                justify-content: start;
+                align-items: start;
                 height: 34px;
                 transition: all 0.3s ease;
                 .box-logo {
+                    height: 24px;
+                    display: flex;
+                    justify-content: start;
+                    align-items: start;
                     .text {
                         display: none;
                     }
                     .text2 {
+                        height: 24px;
                         display: block;
                         font-weight: 500;
                         font-size: 20px;
@@ -1987,10 +2149,18 @@ input {
                 gap: 20px;
                 transition: all 0.3s ease;
                 .box-top {
+                    display: flex;
+                    justify-content: start;
+                    align-items: start;
                     height: 34px;
                     transition: all 0.3s ease;
                     .box-logo {
+                        height: 24px;
+                        display: flex;
+                        justify-content: start;
+                        align-items: start;
                         .text {
+                            height: 24px;
                             font-size: 20px;
                             transition: all 0.3s ease;
                         }
@@ -2029,10 +2199,18 @@ input {
         gap: 20px;
         transition: all 0.3s ease;
         .box-top {
+            display: flex;
+            justify-content: start;
+            align-items: start;
             height: 34px;
             transition: all 0.3s ease;
             .box-logo {
+                height: 24px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
                 .text {
+                    height: 24px;
                     font-size: 20px;
                     transition: all 0.3s ease;
                 }
@@ -2163,6 +2341,11 @@ input {
         transition: all 0.3s ease;
     }
 
+    .emoji {
+        width: 24px;
+        height: 24px;
+    }
+
     .section5 {
         .container {
             width: 90%;
@@ -2180,10 +2363,15 @@ input {
                 border-bottom: 1px solid #6c6c6c6f;
                 display: flex;
                 justify-content: space-between;
-                align-items: center;
+                align-items: start;
                 transition: all 0.3s ease;
                 .box-logo {
+                    height: 24px;
+                    display: flex;
+                    justify-content: start;
+                    align-items: start;
                     .text {
+                        height: 24px;
                         font-weight: 500;
                         font-size: 20px;
                         color: var(--dark-blue);
@@ -2273,10 +2461,18 @@ input {
             gap: 20px;
             transition: all 0.3s ease;
             .box-top {
+                display: flex;
+                justify-content: start;
+                align-items: start;
                 height: 34px;
                 transition: all 0.3s ease;
                 .box-logo {
+                    height: 24px;
+                    display: flex;
+                    justify-content: start;
+                    align-items: start;
                     .text {
+                        height: 24px;
                         font-size: 20px;
                         transition: all 0.3s ease;
                     }
@@ -2316,6 +2512,7 @@ input {
                                         background-color: var(--white);
                                         border: 1px solid rgba(208, 213, 221, 1);
                                         margin-top: 4px;
+                                        font-size: 10.48px;
                                         transition: all 0.3s ease;
                                     }
                                 }
@@ -2341,6 +2538,7 @@ input {
                                     .mini-text {
                                         width: 100%;
                                         height: 31.72px;
+                                        font-size: 10.48px;
                                         padding-left: 10px;
                                         border-radius: 5.24px;
                                         background-color: var(--white);
@@ -2446,10 +2644,12 @@ input {
                                         gap: 5.24px;
                                         transition: all 0.3s ease;
                                         .text1 {
+                                            line-height: 19.65px;
                                             font-size: 13.1px;
                                             transition: all 0.3s ease;
                                         }
                                         .text2 {
+                                            line-height: 15.72px;
                                             font-size: 10.48px;
                                             transition: all 0.3s ease;
                                         }
@@ -2515,6 +2715,7 @@ input {
         align-items: center;
         justify-content: center;
         gap: 40px;
+        transition: all 0.3s ease;
         .container {
             width: 90%;
             max-width: 1216px;
@@ -2522,6 +2723,7 @@ input {
             flex-direction: column;
             justify-content: center;
             gap: 30px;
+            transition: all 0.3s ease;
             .box-item {
                 display: flex;
                 justify-content: start;
@@ -2529,6 +2731,7 @@ input {
                 align-items: center;
                 column-gap: 45px;
                 row-gap: 30px;
+                transition: all 0.3s ease;
             }
         }
         .box-right-copy {
@@ -2540,8 +2743,11 @@ input {
             flex-direction: column;
             align-items: center;
             gap: 10px;
+            transition: all 0.3s ease;
         }
     }
+
+
 }
 
 @media only screen and (max-width: 389px) {
