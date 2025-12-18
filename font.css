@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Formative Trail";
+    src: url(/formativeFontFamily/FormativeTrial-Bold-BF656fed900a747.otf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Formative Trail";
+    src: url(/formativeFontFamily/FormativeTrial-Semi-Bold-BF656fed90469e4.otf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Formative Trail";
+    src: url(/formativeFontFamily/FormativeTrial-Medium-BF656fed9022a12.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Formative Trail";
+    src: url(/formativeFontFamily/FormativeTrial-Regular-BF656fed9028715.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Formative Trail";
+    src: url(/formativeFontFamily/FormativeTrial-Light-BF656fed90277af.otf);
+    font-weight: 300;
+}
